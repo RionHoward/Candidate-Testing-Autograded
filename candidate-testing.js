@@ -9,7 +9,7 @@ console.log(candidateName + " I hope you are doing well today!");;
 let question = ("Who was the first American woman in space? ");
 let correctAnswer = ("Sally Ride");
 let candidateAnswer = input.question("Who was the first American woman in space? ")
-if (candidateAnswer !== correctAnswer){
+if (candidateAnswer === correctAnswer){
   console.log("Great job that is correct!");
   } else {
     console.log("Sorry that is incorrect!");
