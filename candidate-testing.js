@@ -1,7 +1,7 @@
 const input = require('readline-sync');
 
 // TODO 2: modify your quiz app to ask 5 questions //
-// Trying a new save on github
+// new save on github
 // TODO 1.1a: Define candidateName // 
 let candidateName = input.question("What is your name?");
 console.log(candidateName + " I hope you are doing well today!");;
